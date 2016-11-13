@@ -2,7 +2,7 @@
 
 ###Sistemde virtualenv üzerinde django kurulu olduğunu varsayıyoruz :)
 
-1.```(newenv) ozgur@freeman:~/newproject$``` proje dizini içinde sanal ortamı aktif ettikten sonra aşağıdaki komutu veriyoruz.
+1.```(newenv) username@host:~/newproject$``` proje dizini içinde sanal ortamı aktif ettikten sonra aşağıdaki komutu veriyoruz.
 Burada ```mysite```tan sonra bir boşluk ve ```.``` ya dikkat
 
 ```django-admin startproject mysite .```
@@ -17,7 +17,7 @@ Dosyanın en altına aşağıdaki satırı ekleyelim
 
 request.py dosyasını açıp 100 numaralı satırada bulunan allowed_host = ['localhost', 'IP adresimiz'] listesine sitemizi ip adersini ekleyelim ki siteye ulaşabilsinler
 
-```nano /home/ozgur/newproject/newenv/lib/python3.5/site-packages/django/http/request.py```
+```nano /home/USERNAME/newproject/newenv/lib/python3.5/site-packages/django/http/request.py```
 
 3.Veritabanını oluşturmak için aşağıdaki komutu verelim()
 
