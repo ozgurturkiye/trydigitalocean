@@ -2,7 +2,7 @@
 
 ##Bu kısımda ```pip``` kullanılarak ```virtualenv``` içerisine kurulum anlatılacak.
 
-> Bu yöntem bize sanal bir Python çervresi sağlayacak ve sistemin genelini etkilemeden ayrı ayrı Python projeleri yapmamıza olanak tanıyracaktır.
+> Bu yöntem bize sanal bir Python çevresi sağlayacak ve sistemin genelini etkilemeden ayrı ayrı Python projeleri yapmamıza olanak tanıyracaktır.
 
 1.```sudo apt-get update```
 
@@ -16,7 +16,7 @@
 
 ```cd ~/newproject```
 
-5.Bu kodu çalıştırınca yalnız bir şekilde çalışan Python kurmuş olduk.
+5.Bu kodu çalıştırınca yalnız bir şekilde çalışan(sistemin genelinden bağımsız) Python kurmuş olduk.
 
 ```virtualenv newenv```
 
@@ -31,7 +31,7 @@
 
 8.Kurulumu kontrol edelim
 
-```(newenv) django-admin --version
+```(newenv) django-admin --version```
 
 9.Sanal çevreden ayrılmak için herhangi biryerde ```deactivate``` komutunu çalıştırmalıyız.
 
